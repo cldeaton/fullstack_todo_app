@@ -1,4 +1,4 @@
-const APIURL = '/api/todos/';
+const APIURL = '/api/todos/'
 
 export async function getTodos() {
   return fetch(APIURL)
