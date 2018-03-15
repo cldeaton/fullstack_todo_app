@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 const TodoItem  = ({name, completed, onDelete, onToggle}) => (
   <li>
@@ -12,7 +12,7 @@ const TodoItem  = ({name, completed, onDelete, onToggle}) => (
     </span>
     <span onClick={onDelete}> X </span>
   </li>
-)
+);
 
 
 export default TodoItem;
